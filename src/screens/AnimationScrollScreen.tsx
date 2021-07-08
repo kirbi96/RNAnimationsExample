@@ -17,6 +17,7 @@ export const AnimationScrollScreen = () => {
 
   return (
     <Animated.ScrollView
+      pagingEnabled={true}
       onScroll={scrollHandler}
       horizontal={true}
       scrollEventThrottle={20}
